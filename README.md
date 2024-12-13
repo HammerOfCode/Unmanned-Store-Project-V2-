@@ -37,16 +37,15 @@ facial_req.py & server.py.
 ---
 
 **Read Product's QR code**.
-
 .READQRCODE2.py.
-
-![QR_CodeRecognition](./src/readQRCODE.png).
 클라이언트에서 QR코드 인식 확인 할 수 있습니다.
+![QR_CodeRecognition](./src/readQRCODE.png).
+
 ---
 
 **Purchase Info Displayed on Server**.
 server.py.
-
-![purchaseinfo](./src/ServerrecogQRCODE.png).
 서버에서 상풍의 정보를 받고 DB 처리합니다.
+![purchaseinfo](./src/ServerrecogQRCODE.png).
+
 ---
