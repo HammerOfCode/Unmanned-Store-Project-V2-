@@ -9,35 +9,42 @@ Scenario
 **제안 시스템**
 
 ![General System](./src/GeneralSystem.png)
+---
 
 **상품의 QR코드 생성**
 QRCODE.py
 ![QR code Generation](./src/createQRCode.png)
 상품의 QR코드 생성
+---
+
 **Data Collection**
 headshots.py
 ![Data Collection](./src/dataco.png)
 데이커 모으기. 
+---
 
 **Training**
 train_model.py
 ![Training](./src/training_.png)
 모델 학습 시킵니다
+---
 
 **Getting Info from Client to Server**
 facial_req.py & server.py
 ![ServerResults](./src/server.png)
 서버에서는 고객 인식합니다.
+---
 
 **Read Product's QR code**
 READQRCODE2.py
 
 ![QR_CodeRecognition](./src/readQRCODE.png)
 클라이언트에서 QR코드 인식 확인 할 수 있습니다.
-
+---
 
 **Purchase Info Displayed on Server**
 server.py
 
 ![purchaseinfo](./src/ServerrecogQRCODE.png)
 서버에서 상풍의 정보를 받고 DB 처리합니다.
+---
